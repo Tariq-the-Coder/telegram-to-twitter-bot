@@ -1,0 +1,29 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "webchat application nodeserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "tariq ali",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.34",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.6",
+    "numeral": "^2.0.6",
+    "socket.io": "^3.0.4",
+    "twit": "^2.2.11",
+    "twitter-lite": "^1.1.0",
+    "web3": "^1.7.0"
+  }
+}
